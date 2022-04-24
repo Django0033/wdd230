@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Ubuntu Mono", "Times New Roman", serif;
+}
+
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 1rem auto;
+    border: 1px solid #ff79c6;
+    padding: .5rem;
+    background-color: #44475a;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 1em;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins, Arial, sans-serif;
+}
+
+img {
+    max-width: 200px;
+    border: 1px solid #ff79c6;
+}
+
+header h1 {
+    text-align: center;
+    color: #ff79c6;
+}
+
+footer {
+    border: 1px solid #ff79c6;
+    padding: .5rem;
+    background-color: #44475a;
+    text-align: center;
+    color: #ff79c6;
+}
